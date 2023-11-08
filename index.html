@@ -1,4 +1,120 @@
-<div class="table-container">
+!DOCTYPE html>
+<html lang='en' class=''>
+
+<head>
+
+  <meta charset='UTF-8'>
+  <title>CodePen Demo</title>
+
+  <meta name="robots" content="noindex">
+
+  <link rel="shortcut icon" type="image/x-icon" href="https://cpwebassets.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico">
+  <link rel="mask-icon" href="https://cpwebassets.codepen.io/assets/favicon/logo-pin-b4b4269c16397ad2f0f7a01bcdf513a1994f4c94b8af2f191c09eb0d601762b1.svg" color="#111">
+  <link rel="canonical" href="https://codepen.io/tutsplus/pen/xxWpQbe?editors=1111">
+
+  
+  
+
+  <style id="INLINE_PEN_STYLESHEET_ID">
+    <link rel="stylesheet" href="https://use.typekit.net/ckw7mws.css">
+
+body {
+  font-family: "Chaparral Pro Regular", serif;
+}
+
+.table-container {
+  margin: auto;
+  max-width: 1200px;
+  min-height: 100vh;
+  overflow: scroll;
+  width: 100%;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+thead tr {
+  border-bottom: 1px solid #000;
+  border-top: 1px solid #000;
+  height: 1px;
+}
+
+th {
+  font-weight: bold;
+  height: inherit;
+  padding: 0;
+}
+
+th:not(:first-of-type) {
+  border-left: 1px solid #000;
+}
+
+th button {
+  background-color: #F1B82D;
+  border: none;
+  cursor: pointer;
+  display: block;
+  font: inherit;
+  height: 100%;
+  margin: 0;
+  min-width: max-content;
+  padding: 0.5rem 1rem;
+  position: relative;
+  text-align: left;
+  width: 100%;
+}
+
+th button::after {
+  position: absolute;
+  right: 0.5rem;
+}
+
+th button[data-dir="asc"]::after {
+  content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpolygon points='0, 0 8,0 4,8 8' fill='%23818688'/%3E%3C/svg%3E");
+}
+
+th button[data-dir="desc"]::after {
+  content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpolygon points='4 0,8 8,0 8' fill='%23818688'/%3E%3C/svg%3E");
+}
+
+tbody tr {
+  border-bottom: 1px solid #ddd;
+}
+
+td {
+  padding: 0.5rem 1rem;
+  text-align: left;
+}
+
+footer {
+  background-color: #fff;
+  margin: 2rem -8px -8px;
+  padding: 1rem;
+  text-align: center;
+}
+
+footer a {
+  color: inherit;
+  text-decoration: none;
+}
+
+footer .heart {
+  color: #dc143c;
+}
+
+  </style>
+
+  
+<script src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-2c7831bb44f98c1391d6a4ffda0e1fd302503391ca806e7fcc7b9b87197aec26.js"></script>
+<script src="https://cpwebassets.codepen.io/assets/editor/iframe/iframeConsoleRunner-6d8bf8b4b479137260842506acbb12717dace0823c023e08b96360e60b0840d9.js"></script>
+<script src="https://cpwebassets.codepen.io/assets/editor/iframe/iframeRefreshCSS-44fe83e49b63affec96918c9af88c0d80b209a862cf87ac46bc933074b8c557d.js"></script>
+<script src="https://cpwebassets.codepen.io/assets/editor/iframe/iframeRuntimeErrors-4f205f2c14e769b448bcf477de2938c681660d5038bc464e3700256713ebe261.js"></script>
+</head>
+
+<body>
+  <div class="table-container">
   <table class="data-table">
     <thead>
       <tr>
@@ -15,3 +131,8 @@
 
 <footer>
 </footer>
+  
+  <script  src="https://cdpn.io/cpe/boomboom/pen.js?key=pen.js-b2ff2bcc-94af-22e2-70f3-c935307ea7cc" crossorigin></script>
+</body>
+
+</html>
