@@ -93,6 +93,20 @@ footer .heart {
  </style>
 </head>
 <body>
+  <div class="table-container">
+  <table class="data-table">
+    <thead>
+      <tr>
+        <th><button id="crsnmbr">Course Number</button></th>
+        <th><button id="crstitle">Course Title</button></th>
+        <th><button id="type">Type</button></th>
+        <th><button id="term">Term</button></th>
+        <th><button id="units">Units</button></th>
+      </tr>
+    </thead>
+    <tbody id="table-content"></tbody>
+  </table>
+</div>
   <script>
     const response = {
    "programofstudy": [
@@ -242,20 +256,6 @@ window.addEventListener("load", () => {
   });
 });
   </script>
-<div class="table-container">
-  <table class="data-table">
-    <thead>
-      <tr>
-        <th><button id="crsnmbr">Course Number</button></th>
-        <th><button id="crstitle">Course Title</button></th>
-        <th><button id="type">Type</button></th>
-        <th><button id="term">Term</button></th>
-        <th><button id="units">Units</button></th>
-      </tr>
-    </thead>
-    <tbody id="table-content"></tbody>
-  </table>
-</div>
 </body>
 <footer>
 </footer>
